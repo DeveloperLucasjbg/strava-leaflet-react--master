@@ -1,0 +1,55 @@
+.avtivitiesContainer {
+  width: 90%;
+}
+.avtivitiesContainer h3 {
+  margin: 1em 0;
+}
+.itemList_Grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: rgb(221, 221, 221);
+  padding: 2em 0;
+}
+
+.item_list {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: rgb(204, 204, 204);
+  padding: 2em 0;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+.itemList_Grid span {
+  font-weight: bold;
+}
+
+.item_list button {
+  margin: 0;
+  width: max-content;
+  padding: 0.7em 1.7em;
+  border-radius: 3em;
+  cursor: pointer;
+}
+
+.item_list button:hover {
+  color: rgb(255, 220, 154);
+  background-color: rgb(128, 82, 128);
+}
+.spinner {
+  border: 4px solid rgba(115, 96, 131, 0.89);
+  border-left-color: tomato;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
