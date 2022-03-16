@@ -1,9 +1,9 @@
 .Navbar {
-  width:100%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(196, 192, 207, 0.747);
+  background-color: rgba(194, 194, 194, 0.747);
 }
 ul {
   width: 100%;
@@ -23,6 +23,6 @@ li {
 }
 a:hover {
   cursor: pointer;
-  color: rgb(71, 179, 71);
+  color: #ef6639;
   border-bottom: 2px solid black;
 }

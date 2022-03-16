@@ -15,13 +15,13 @@ const ListContainer = () => {
       setUserActivities(res);
     });
   }, []);
-                                   console.log(userActivities);
+  console.log(userActivities);
   return (
     <div className="avtivitiesContainer">
       <h3>USER ACTIVITIES LIST</h3>
       <div className="itemList_Grid">
         <span>Name</span>
-        <span>Distance</span> 
+        <span>Distance</span>
         <span>Elapsed_time</span>
         <span>Max Speed</span>
         <span>Elevation_gain</span>
